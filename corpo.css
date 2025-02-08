@@ -1,0 +1,56 @@
+/*textos do corpo da pagina */
+h1 {
+    color: rgb(182, 153, 209);
+    justify-content: center;
+}
+h2 {
+    color: rgb(255, 255, 255);
+    justify-content: center;
+}
+h3 {
+    color: rgb(255, 255, 255);
+    justify-content: center;
+}
+h4 {
+    color: rgb(255, 255, 255);
+    justify-content: center;
+}
+p {
+    color: rgb(255, 255, 255);
+    justify-content: center;
+}
+
+
+/*botoes sim e nao */
+button {
+    background-color: rgb(182, 112, 218);
+    color: white;
+    padding: 14px 25px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    height: 40px;
+}
+
+/*fundo */
+*{
+    margin: 0;
+    padding: 0;
+    box: sizing 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("estrelas.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+/* adaptacao para mobile */
+@media screen and (max-width: 600px) {
+    
+}
+
+ 
